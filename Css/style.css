@@ -1,5 +1,90 @@
 *{
-    margin：0:
-    padding：0;
+    margin:0;
+    padding:0;
 }
 
+
+.banner {
+
+        }
+.banner a{display: block;
+    background:url("../Img/head1.jpg") no-repeat center 0;
+    height: 120px;
+
+}
+
+ul{list-style: none}
+
+
+.daohang1{
+    background: #333;
+ height: 40px;
+
+}
+.daohang2  li {
+
+  height: 40px;
+    line-height:40px;
+float: left;
+}
+.daohang2{width: 1226px;
+margin: 0 auto;}
+
+.daohang2 li a{
+   height: 40px;
+    color: #b0b0b0;
+    font-size: 12px;
+
+}
+.daohang2 li span{
+    color: #424242;
+    margin: 0 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.daohang4{
+    float: right;
+
+}
+
+
+
+
+
+.icon-cart{
+    color: #b0b0b0;
+
+}
+
+
+
+
+.daohang5-1{
+    position: relative;
+    z-index: 24;
+    height: 100px;
+}
+.daohang5-2{
+
+    width: 55px;
+    height: 55px;
+    background: orangered;
+    display: block;
+    overflow: hidden;
+
+
+}
+ .daohang5-2 {
+     background-image: url("../Img/mi-logo.png");
+
+     display: block;
+     overflow: hidden;
+     margin-top: 24px;
+     transform-origin: 50% 50%;
+     margin-left: 155px;
+
+}
