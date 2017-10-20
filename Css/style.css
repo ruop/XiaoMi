@@ -24,9 +24,8 @@ ul {
 
 }
 
-.daohang2 a:hover{
+.daohang2 a:hover {
     color: white;
-
 
 }
 
@@ -76,19 +75,18 @@ a {
     position: relative;
 }
 
-.daohang4 .cart i{
+.daohang4 .cart i {
     display: block;
     width: 100%;
     height: 100%;
     font-size: 12px;
 }
 
-.daohang4 .cart:hover{
+.daohang4 .cart:hover {
     background: #ffffff;
 }
 
-
-.daohang4 i:hover{
+.daohang4 i:hover {
     color: #ff6700;
 
 }
@@ -105,19 +103,21 @@ a {
     top: 40px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
     display: none;
+    background: white;
 
 }
 
-
-.daohang4 .cart:hover .cart-box{
+.daohang4 .cart:hover .cart-box {
     display: block;
-    animation:show 0.5s ease-in forwards;
+    animation: show 0.5s ease-in forwards;
 }
+
 @keyframes show {
-    100%{
+    100% {
         height: 100px;
     }
 }
+
 .daohang5-1 {
     position: relative;
     z-index: 24;
@@ -133,8 +133,6 @@ a {
 
 }
 
-
-
 .daohang5-2 {
     background-image: url("../Img/mi-logo.png");
     display: block;
@@ -145,7 +143,7 @@ a {
 
 }
 
-.daohang5-3{
+.daohang5-3 {
     list-style: none;
     width: 1226px;
     height: 88px;
@@ -153,15 +151,37 @@ a {
     margin-left: 50px;
 
 }
-   .daohang5-1-1{
-     float: left;
-       padding: 0 10px;
 
-   }
-.daohang5-3 a{
+.daohang5-1-1 {
+    float: left;
+    padding: 0 10px;
+    position: relative;
+
+}
+
+.daohang5-3 a {
     color: #424242;
 }
 
-.daohang5-1-1 :hover a{
+.daohang5-1-1:hover a {
+
     color: #ff6700;
+}
+
+.daohang2-1 {
+    width: 1536px;
+    height: 185px;
+    background: red;
+    position: absolute;
+    left: -300px;
+    top: 54px;
+
+}
+
+.daohang5-4 .daohang2-1 {
+    display: none;
+}
+
+.daohang5-4 li:hover .daohang2-1 {
+    display: block;
 }
